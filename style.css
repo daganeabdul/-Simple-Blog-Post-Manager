@@ -1,0 +1,127 @@
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #a8edea, #fed6e3);
+    line-height: 1.6;
+  }
+  
+ 
+  header, footer {
+    background-color: #0d8db3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer {
+    margin-top: 40px;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  
+  aside {
+    width: 25%;
+    background-color: #fff;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul#posts-container {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul#posts-container li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  ul#posts-container li:hover {
+    background-color: #e0f7fa;
+  }
+  
+
+  main {
+    width: 75%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .hidden {
+    display: none;
+  }
+  
+ 
+  form {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #0d8db3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0b7ca0;
+  }
+  
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  
+  #new-post {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #new-post form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  
