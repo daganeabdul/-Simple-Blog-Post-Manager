@@ -20,8 +20,8 @@ Project Structure
 
 bash
 .
-├── index.html           Main HTML layout
-├── style.css            Styling for the app
-├── index.js             JavaScript logic (DOM, events, fetch)
-├── db.json              Mock database for JSON Server
-└── README.md            Project documentation
+ index.html           Main HTML layout
+ style.css            Styling for the app
+ index.js             JavaScript logic (DOM, events, fetch)
+ db.json              Mock database for JSON Server
+ README.md            Project documentation
