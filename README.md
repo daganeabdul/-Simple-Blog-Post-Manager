@@ -47,7 +47,7 @@ npm install -g json-server
 Then run:
 json-server --watch db.json
 
-The server will run at http://localhost:3000
+The server will run 
 
 4. Start your frontend
 Use live-server or open index.html in your browser.
@@ -62,26 +62,7 @@ File Structure
  -db.json
 
 
-API Endpoints
-Base URL: http://localhost:3000/posts
-Method
-Endpoint
-Description
-GET
-/posts
-Fetch all blog posts
-GET
-/posts/:id
-Fetch a single blog post
-POST
-/posts
-Create a new post
-PATCH
-/posts/:id
-Update a post (title/content)
-DELETE
-/posts/:id
-Delete a blog post
+
 
 
  How It Works
