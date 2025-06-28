@@ -1,3 +1,4 @@
+
  Blog Post Manager
 
 A simple CRUD (Create, Read, Update, Delete) blog management web application built using  JavaScript,  HTML, and CSS. This app allows users to create, edit, and delete blog posts, and dynamically updates the UI by interacting with a  JSON Server API.
@@ -15,13 +16,18 @@ This Blog Post Manager demonstrates how to:
 
 
 SCREENSHOT
+
+
 ![image alt](https://github.com/daganeabdul/-Simple-Blog-Post-Manager/blob/main/unnamed%20(1).png?raw=true)
+
 
 
 
 Features
 
+
 Core Functionality
+
 
 - View all blog post titles on page load (sidebar)
 - Click a post title to view full details (title, content, author)
@@ -59,13 +65,15 @@ Create the required files:
  index.js
  db.json
 
+ 
+
 Install JSON Server globally (if not installed):
 
- npm install -g json-server
+     npm install -g json-server
 
 Run the JSON Server:
 
- json-server --watch db.json
+     json-server --watch db.json
  The server will run at: http://localhost:3000
 
 
@@ -73,6 +81,8 @@ Start the frontend:
 
 
 Use Live Server in your code editor
+
+
  or
 
 
@@ -81,6 +91,8 @@ Open index.html manually in your browser
 
 
  File Structure
+
+ 
 blog-post-manager/
 
    index.html
@@ -90,7 +102,10 @@ blog-post-manager/
 
 
  How It Works
+
+ 
  main()
+ 
 Called once the DOM is fully loaded
 
 
@@ -133,7 +148,7 @@ Listens for form submission on #new-post-form
 Gathers form input and sends a POST request
 
 
-Clears form and refreshes the post list
+Clears the form and refreshes the post list
 
 
 
