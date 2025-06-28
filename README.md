@@ -15,7 +15,7 @@ This Blog Post Manager demonstrates how to:
 
 
 SCREENSHOT
-![image alt]()
+![image alt](https://github.com/daganeabdul/-Simple-Blog-Post-Manager/blob/main/unnamed%20(1).png?raw=true)
 
 
 
