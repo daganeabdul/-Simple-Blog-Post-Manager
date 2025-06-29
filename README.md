@@ -193,9 +193,6 @@ Refreshes the post list
 }
 
 
- Support and Contact
-For any suggestions, questions, or issues, feel free to contact:
-Email: abdirahman.takhal@student.moringaschool.com
 
 
 
